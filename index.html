@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARVA — Forge Your Force | Elite Strength & Conditioning in Tauranga</title>
+    <style>
+        body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #0b0b0b; color: #fff; }
+        header { background-color: #111; border-bottom: 2px solid #222; padding: 15px 30px; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #fff; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; text-decoration: none; font-size: 1.4rem; }
+        .logo span { color: #ff3e3e; font-weight: 400; }
+        nav { display: flex; gap: 25px; align-items: center; }
+        .nav-link { color: #aaa; text-decoration: none; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+        .nav-link:hover { color: #fff; }
+        .nav-btn { background-color: #ff3e3e; color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 8px 18px; border-radius: 4px; transition: background 0.2s; }
+        .nav-btn:hover { background-color: #d32f2f; }
+        .hero { text-align: center; padding: 100px 20px; background: linear-gradient(180deg, #111 0%, #0b0b0b 100%); }
+        .hero h1 { font-size: 3.5rem; text-transform: uppercase; margin-bottom: 20px; letter-spacing: -1px; }
+        .hero p { font-size: 1.2rem; color: #ccc; max-width: 800px; margin: 0 auto 30px auto; line-height: 1.6; }
+        .btn-main { background-color: #fff; color: #000; padding: 12px 30px; text-decoration: none; font-weight: 700; text-transform: uppercase; border-radius: 4px; margin: 5px; display: inline-block; }
+        .btn-sec { background-color: transparent; color: #fff; border: 2px solid #ff3e3e; padding: 10px 28px; text-decoration: none; font-weight: 700; text-transform: uppercase; border-radius: 4px; margin: 5px; display: inline-block; }
+        .section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+        .section h2 { text-transform: uppercase; font-size: 2.2rem; border-left: 4px solid #ff3e3e; padding-left: 15px; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background-color: #111; padding: 40px; border: 1px solid #222; border-radius: 4px; position: relative; }
+        .card h3 { font-size: 1.5rem; text-transform: uppercase; margin-top: 10px; margin-bottom: 15px; }
+        .card .num { font-size: 2rem; color: #ff3e3e; font-weight: 800; opacity: 0.3; }
+        .card ul { padding-left: 20px; color: #ccc; line-height: 1.8; }
+        .testimonials { background-color: #111; padding: 80px 20px; }
+        .testimonials-inner { max-width: 1200px; margin: 0 auto; }
+        .testi-card { background-color: #0b0b0b; padding: 30px; border-radius: 4px; border-left: 3px solid #ff3e3e; margin-bottom: 20px; }
+        .stars { color: #ff3e3e; margin-bottom: 10px; }
+        .author { font-weight: 700; color: #fff; margin-top: 15px; display: block; }
+        .author span { color: #aaa; font-weight: 400; font-size: 0.9rem; }
+        form { background-color: #111; padding: 40px; border-radius: 4px; max-width: 600px; margin: 0 auto; border: 1px solid #222; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 600; text-transform: uppercase; font-size: 0.85rem; color: #aaa; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px; background-color: #222; border: 1px solid #333; color: #fff; border-radius: 4px; box-sizing: border-box; }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: #ff3e3e; outline: none; }
+        .form-submit { background-color: #ff3e3e; color: #fff; border: none; padding: 15px 35px; text-transform: uppercase; font-weight: 700; width: 100%; border-radius: 4px; cursor: pointer; letter-spacing: 1px; }
+        .form-submit:hover { background-color: #d32f2f; }
+        footer { background-color: #050505; border-top: 1px solid #111; padding: 40px 20px; text-align: center; color: #666; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">HARVA <span>// Forge Your Force</span></a>
+            <nav>
+                <a href="index.html" class="nav-link" style="color:#fff;">Services</a>
+                <a href="nutrition.html" class="nav-link">🥗 Nutrition Tracker</a>
+                <a href="tracker.html" class="nav-link">⚡ Workout Tracker</a>
+                <a href="portal.html" class="nav-btn">🔒 Athlete Portal</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Forge Your Force.<br>Engineer Peak Performance.</h1>
+        <p>Uncompromising personal training, data-driven progression programming, and custom body transformation systems built for individuals in the Bay of Plenty who demand elite physical results.</p>
+        <div>
+            <a href="#consultation" class="btn-main">Secure Your Spot</a>
+            <a href="#offerings" class="btn-sec">Explore Programs</a>
+        </div>
+    </section>
+
+    <div style="background-color: #111; padding: 30px 20px; border-top: 1px solid #222; border-bottom: 1px solid #222;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; gap: 20px;">
+            <div><h3 style="font-size: 2.2rem; margin:0; color:#ff3e3e;">100%</h3><p style="margin:5px 0 0 0; color:#aaa; text-transform:uppercase; font-size:0.8rem;">Individualized Programming</p></div>
+            <div><h3 style="font-size: 2.2rem; margin:0; color:#ff3e3e;">10+ Years</h3><p style="margin:5px 0 0 0; color:#aaa; text-transform:uppercase; font-size:0.8rem;">In-The-Trenches Experience</p></div>
+            <div><h3 style="font-size: 2.2rem; margin:0; color:#ff3e3e;">Tauranga</h3><p style="margin:5px 0 0 0; color:#aaa; text-transform:uppercase; font-size:0.8rem;">Based & Rooted</p></div>
+        </div>
+    </div>
+
+    <section id="offerings" class="section">
+        <h2>Engineered Training Systems</h2>
+        <div class="grid">
+            <div class="card">
+                <span class="num">01</span>
+                <h3>1-on-1 Personal Training</h3>
+                <p>Fully dedicated, individualized coaching sessions focusing on biomechanical precision, progressive overload, and accelerated fat loss or muscle hypertrophy.</p>
+                <ul>
+                    <li>Full movement screen & assessment</li>
+                    <li>Bespoke exercise prescription</li>
+                    <li>Nutrition & recovery tracking</li>
+                </ul>
+            </div>
+            <div class="card" style="border-color: #ff3e3e;">
+                <span class="num" style="opacity:0.8;">02</span>
+                <span style="background-color: #ff3e3e; color: #fff; font-size: 0.7rem; font-weight: 700; padding: 4px 10px; border-radius: 3px; position: absolute; top: 20px; right: 20px; text-transform: uppercase;">Popular</span>
+                <h3>Strength & Conditioning</h3>
+                <p>Built for athletes and dedicated lifters. Master compound movements, build raw structural strength, and enhance explosive power output.</p>
+                <ul>
+                    <li>Periodized strength blocks</li>
+                    <li>Velocity & volume analytics</li>
+                    <li>Injury prevention protocols</li>
+                </ul>
+            </div>
+            <div class="card">
+                <span class="num">03</span>
+                <h3>Hybrid Coaching & App</h3>
+                <p>Access our elite digital tracking ecosystem. Follow custom routines anywhere, log sets, monitor rest intervals, and sync with your coach remotely.</p>
+                <ul>
+                    <li>HARVA Tracker App access</li>
+                    <li>Weekly video check-ins</li>
+                    <li>Direct coach messaging</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="border-top: 1px solid #111;">
+        <h2>No Fluff. No Gimmicks. Just Raw Results.</h2>
+        <p style="color: #ccc; max-width: 800px; line-height: 1.8; margin-bottom: 40px;">At Harva, we reject random workouts and fad diets. Every rep, every set, and every gram of nutrition is calculated to maximize physical adaptation. Whether you are prepping for a competitive season or transforming your physique, our training environment is built for serious effort.</p>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+            <div>
+                <h3 style="color:#ff3e3e; font-size:1.2rem;">Precision</h3>
+                <p style="color:#aaa;">Exact load & rep tracking.</p>
+            </div>
+            <div>
+                <h3 style="color:#ff3e3e; font-size:1.2rem;">Accountability</h3>
+                <p style="color:#aaa;">Relentless progress standards.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="testimonials">
+        <div class="testimonials-inner">
+            <h2 style="text-transform: uppercase; font-size: 2.2rem; border-left: 4px solid #ff3e3e; padding-left: 15px; margin-bottom: 40px;">Trusted by Tauranga's Dedicated Lifters</h2>
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <p style="font-style: italic; color: #ccc;">"I've trained around the Mount for years, but Harvey is the first coach who actually broke down my bar path instead of just watching me sweat. Added 30kg to my squat without tweaking my lower back."</p>
+                <span class="author">Sam Taylor <span class="tag">• Mount Maunganui • Strength Athlete (+30kg Squat)</span></span>
+            </div>
+            <div class="testi-card">
+                <div class="stars">★★★★★</div>
+                <p style="font-style: italic; color: #ccc;">"Running a business in downtown Tauranga leaves zero room for wasted time. Harva's programming is razor-sharp. I log in, execute under load, and watch my metrics climb block after block."</p>
+                <span class="author">Dr. Chloe Marsden <span class="tag">• Tauranga • Hybrid Coaching Client (Body Recomp)</span></span>
+            </div>
+        </div>
+    </div>
+
+    <section id="consultation" class="section">
+        <h2>Book Your Consultation</h2>
+        <p style="text-align: center; color: #aaa; margin-bottom: 30px;">Fill out the inquiry form below and we will contact you within 24 hours to schedule your initial session in Tauranga.</p>
+        <form onsubmit="event.preventDefault(); alert('Inquiry submitted!');">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="021 000 0000" required>
+            </div>
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+                <label>Primary Fitness Goal</label>
+                <select>
+                    <option>1-on-1 Personal Training</option>
+                    <option>Strength & Conditioning</option>
+                    <option>Physique Body Transformation</option>
+                    <option>Hybrid Remote Coaching</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Additional Details</label>
+                <textarea rows="4" placeholder="Tell us about your background..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Harva — Forge Your Force. Tauranga, New Zealand. All rights reserved.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem; color: #444;"><a href="#" style="color:#444; text-decoration:none;">Privacy Policy</a> | <a href="#" style="color:#444; text-decoration:none;">Terms of Service</a> | <a href="#" style="color:#444; text-decoration:none;">Location</a></p>
+    </footer>
+
+</body>
+</html>

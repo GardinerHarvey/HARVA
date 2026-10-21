@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARVA Personal Training — Secure Athlete Portal</title>
+    <style>
+        body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; background-color: #0b0b0b; color: #fff; }
+        header { background-color: #111; border-bottom: 2px solid #222; padding: 15px 30px; }
+        .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: #fff; font-weight: 800; text-transform: uppercase; letter-spacing: 2px; text-decoration: none; font-size: 1.4rem; }
+        .logo span { color: #ff3e3e; font-weight: 400; }
+        nav { display: flex; gap: 25px; align-items: center; }
+        .nav-link { color: #aaa; text-decoration: none; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; transition: color 0.2s; }
+        .nav-link:hover { color: #fff; }
+        .nav-btn { background-color: #ff3e3e; color: #fff; text-decoration: none; font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 8px 18px; border-radius: 4px; transition: background 0.2s; }
+        .nav-btn:hover { background-color: #d32f2f; }
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .panel { background-color: #111; border: 1px solid #222; padding: 30px; border-radius: 4px; }
+        h2 { text-transform: uppercase; border-left: 3px solid #ff3e3e; padding-left: 12px; margin-top: 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-top: 30px; }
+        .stat-card { background-color: #1a1a1a; padding: 20px; border-radius: 4px; border: 1px solid #222; }
+        .stat-num { font-size: 2.5rem; font-weight: 800; color: #ff3e3e; }
+        .table-roster { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .table-roster th, .table-roster td { text-align: left; padding: 12px; border-bottom: 1px solid #222; }
+        .table-roster th { text-transform: uppercase; font-size: 0.8rem; color: #aaa; }
+        .badge { background-color: #222; padding: 4px 8px; border-radius: 3px; font-size: 0.75rem; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">HARVA <span>// Forge Your Force</span></a>
+            <nav>
+                <a href="index.html" class="nav-link">Services</a>
+                <a href="nutrition.html" class="nav-link">🥗 Nutrition Tracker</a>
+                <a href="tracker.html" class="nav-link">⚡ Workout Tracker</a>
+                <a href="portal.html" class="nav-btn" style="background-color:#d32f2f;">🔒 Athlete Portal</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="panel">
+            <h2>System Administration & Rosters</h2>
+            <p style="color:#aaa;">Secure control panel for tracking client metrics and onboarding new athletes in the Tauranga hub.</p>
+            
+            <div class="grid">
+                <div class="stat-card"><div class="stat-num">42</div><div style="font-size:0.8rem; text-transform:uppercase; color:#aaa;">Active Athletes</div></div>
+                <div class="stat-card"><div class="stat-num">184</div><div style="font-size:0.8rem; text-transform:uppercase; color:#aaa;">Workouts This Week</div></div>
+                <div class="stat-card"><div class="stat-num">98.2%</div><div style="font-size:0.8rem; text-transform:uppercase; color:#aaa;">Compliance Rate</div></div>
+            </div>
+
+            <h3 style="text-transform:uppercase; margin-top:40px; margin-bottom:15px;">Active Roster Directory</h3>
+            <table class="table-roster">
+                <thead>
+                    <tr><th>Athlete Name</th><th>Program Target</th><th>Last Active</th><th>Status</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Sam Taylor</td><td>Strength & Conditioning</td><td>Today</td><td><span class="badge" style="color:#4caf50;">Active</span></td></tr>
+                    <tr><td>Dr. Chloe Marsden</td><td>Physique Body Transformation</td><td>Yesterday</td><td><span class="badge" style="color:#4caf50;">Active</span></td></tr>
+                    <tr><td>Jake Reynolds</td><td>1-on-1 Personal Training</td><td>3 days ago</td><td><span class="badge" style="color:#ff9800;">Resting</span></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
